@@ -1,14 +1,47 @@
 [![Semantix](semantix_Logo.png)](https://www.semantix.ai/)
- ## :muscle: Sobre 
- Modelo desenvolvido durante o curso profissionalizante de cientista de dados da EBAC em parceria com a Semantix. O projeto consiste em um modelo que prevê o Churn (taxa de cancelamento dos clientes) de um cliente em uma academia. Dessa forma o negócio pode identificar clientes mais sucetiveis a abandonar a academia e tomar medidas que busquem reduzir a perda desses consumidores. O [dataset](https://www.kaggle.com/datasets/hassaan2580/churn-prediction-gym-members-dataset) foi retirado do Kaggle.
+# 🏋️‍♂️ Previsão de Churn em Academia
 
-## :hammer: Desenvolvimento
-O projeto foi feito em **python** com o auxilio das bibliotecas **pandas, matplotlib, seaborn e sklearn** para manipulação e visualização dos dados. O modelo escolhido foi o XGBoost para o problema de classificação. O desenvolvimento seguiu a seguinte ordem:
-- **Análise exploratória**
-- **Pré processamento**
-- **Aplicação das técnicas**
-- **Treinamento**
-- **Avaliação**
- 
- ## :chart_with_upwards_trend: Como visualizar?
- Para visualizar o modelo basta acessar o arquivo [Projeto_Semantix](Projeto_Semantix.ipynb). As análises mais detalhadas estão no arquivo [Projeto_Semantix_BI](Projeto_Semantix_BI.pbix) que precisa ser baixado e aberto no Power BI.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Concluído-success.svg)
+
+---
+ ## :muscle: Sobre 
+Este modelo foi desenvolvido durante o curso profissionalizante de Cientista de Dados da **EBAC**, em parceria com a **Semantix**.
+O objetivo do projeto é criar um modelo capaz de prever o **Churn** (probabilidade de cancelamento) de clientes de uma academia. Dessa forma, o negócio pode identificar usuários com maior risco de abandono e agir preventivamente para reduzir perdas.
+
+O dataset utilizado está disponível no [Kaggle](https://www.kaggle.com/datasets/hassaan2580/churn-prediction-gym-members-dataset).
+
+---
+
+## 🔨 Tecnologias Utilizadas  
+
+**Linguagem:**  
+- Python 3.9+
+
+**Bibliotecas principais:**  
+- `pandas` – manipulação de dados  
+- `matplotlib` e `seaborn` – visualização  
+- `scikit-learn` – pré-processamento e métricas  
+- `xgboost` – modelo final de classificação  
+
+---
+
+## 🧠 Pipeline de Desenvolvimento  
+O projeto seguiu o seguinte fluxo:
+
+1. **Análise Exploratória (EDA)**  
+2. **Pré-processamento dos dados**  
+3. **Aplicação de técnicas de balanceamento e transformação**  
+4. **Treinamento do modelo (XGBoost)**  
+5. **Avaliação da performance**
+
+---
+
+## 📈 Visualização dos Resultados
+
+Para acompanhar o desenvolvimento e as análises do modelo:  
+→ abra [Projeto_Semantix.ipynb](Projeto_Semantix.ipynb).
+
+Para visualizar o dashboard completo com métricas e insights:  
+→ baixe e abra [Projeto_Semantix_BI.pbix](Projeto_Semantix_BI.pbix) no Power BI
