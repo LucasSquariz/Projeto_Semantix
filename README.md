@@ -2,7 +2,6 @@
 # 🏋️‍♂️ Previsão de Churn em Academia
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Concluído-success.svg)
 
 ---
@@ -45,3 +44,4 @@ Para acompanhar o desenvolvimento e as análises do modelo:
 
 Para visualizar o dashboard completo com métricas e insights:  
 → baixe e abra [Projeto_Semantix_BI.pbix](Projeto_Semantix_BI.pbix) no Power BI
+
